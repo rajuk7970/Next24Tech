@@ -1,0 +1,235 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+/* Header Styles */
+header {
+    background: #292b2c;
+    color: #f8f9fa;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #e9ecef;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #ff9a8b, #001aff);
+    color: #fff;
+    padding: 4em 0;
+    height: 70vh;
+    text-align: center;
+    border-bottom: 5px solid #ff6a00;
+}
+
+.hero h2 {
+    padding-top: 200px;
+    margin: 0;
+    font-size: 2.8em;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.btn {
+    background: #ff6a00;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background: #ff4e00;
+    transform: scale(1.05);
+}
+
+/* Featured Products Section */
+.featured-products, .product-list {
+    padding: 4em 0;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    width: 240px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+    font-size: 1.3em;
+}
+
+.product-item p {
+    font-size: 1.2em;
+    color: #ff6a00;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+/* Cart and Checkout Styles */
+.cart, .checkout {
+    padding: 4em 0;
+    background: #fff;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart table th, .cart table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.cart table th {
+    background: #ff6a00;
+    color: #fff;
+}
+
+.cart table td input {
+    width: 60px;
+    padding: 5px;
+}
+
+.cart table td button {
+    background: #ff6a00;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cart table td button:hover {
+    background: #ff4e00;
+}
+
+.checkout form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.checkout form h3 {
+    margin-top: 0;
+    font-size: 1.6em;
+    color: #ff6a00;
+}
+
+.checkout form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.checkout form input, .checkout form select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.checkout form button {
+    background: #ff6a00;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.checkout form button:hover {
+    background: #ff4e00;
+}
+
+/* Footer Styles */
+footer {
+    background: #292b2c;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+}
+
+footer p {
+    margin: 0;
+}

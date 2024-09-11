@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Online Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <h2>Shirt</h2>
+            <img src="https://img.freepik.com/free-photo/man-beige-shirt-pants-casual-wear-fashion_53876-102889.jpg?t=st=1725945105~exp=1725948705~hmac=2ac916c60de7fe5189dc98e25c052429350d4e1e96d6305ed0fb9def785e75d2&w=360" alt="Product 1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+            <p><strong>Price:</strong> $19.99</p>
+            <button class="btn" onclick="addToCart()">Add to Cart</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Online Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function addToCart() {
+            alert('Product added to cart!');
+        }
+    </script>
+</body>
+</html>
