@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - E-Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">E-Learn</div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <input type="text" placeholder="Search..." class="search-bar">
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlock Your Potential with Our Expert Courses</h1>
+            <p>Join thousands of learners in expanding your knowledge and skills</p>
+            <a href="courses.html" class="cta-button">Explore Courses</a>
+        </div>
+    </section>
+    <section class="featured-courses">
+        <div class="container">
+            <h2>Featured Courses</h2><br>
+            <div class="course-grid">
+                <div class="course-item">
+                    <img src="https://images.pexels.com/photos/11035371/pexels-photo-11035371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Course 1">
+                    <h3>HTML</h3>
+                    <p>Brief description of Course 1.</p>
+                    <a href="courses.html" class="cta-button">Learn More</a>
+                </div>
+                <div class="course-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Course 2">
+                    <h3>CSS</h3>
+                    <p>Brief description of Course 2.</p>
+                    <a href="courses.html" class="cta-button">Learn More</a>
+                </div>
+                <div class="course-item">
+                    <img src="https://play-lh.googleusercontent.com/rfWOJQVBHoAZ_B43v0ySFlLmJBLtksVGAxGaFRh2ex4nOmNQ86qzG4sYWV63IKrXlvI" alt="Course 3">
+                    <h3>JavaScript</h3>
+                    <p>Brief description of Course 3.</p>
+                    <a href="courses.html" class="cta-button">Learn More</a>
+                </div>
+                <div class="course-item">
+                    <img src="https://crowdforthink.com/assets/uploads/blogs/582d8348873b7e0fdfaa78320dd3b918.jpg" alt="Course 3">
+                    <h3>Java</h3>
+                    <p>Brief description of Course 3.</p>
+                    <a href="courses.html" class="cta-button">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Learners Say</h2>
+            <div class="testimonial">
+                <p>"This platform is amazing! I've learned so much."</p>
+                <p>- Jane Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"The courses are top-notch and the instructors are great."</p>
+                <p>- John Smith</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 E-Learn. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Example: Initialize Google Maps (you would need an actual API key)
+        function initMap() {
+            const mapOptions = {
+                zoom: 12,
+                center: { lat: 40.7128, lng: -74.0060 } // Example coordinates for New York City
+            };
+            new google.maps.Map(document.getElementById('map'), mapOptions);
+        }
+    
+        if (document.getElementById('map')) {
+            initMap();
+        }
+    
+        // Example: Form submission handler (basic example)
+        const form = document.getElementById('contact-form');
+        if (form) {
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+                alert('Message sent!');
+                form.reset();
+            });
+        }
+    });
+    
+</script>
+
+
+</body>
+</html>
